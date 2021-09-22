@@ -1,40 +1,67 @@
 # 手冊
 ## unix 基本操作
 
-### 進入目錄
+### 進入工作資料夾
 ```
-cd <目錄>
+cd <資料夾>
+```
+e.g. 切換到 D:/test/folder 作為工作資料夾
+```
+cd /D/test/folder
 ```
 
-### 列出目前目錄
+e.g. 切換到目前資料夾的子資料夾 folder 作為工作資料夾
+```
+cd AnotherFolder
+# 如果延續上一個範例的話，當前資料夾會變成/D/test/folder/AnotherFolder
+```
+### 列出目前資料夾下的檔案
+* 僅列出檔案以及資料夾名稱
 ```
 ls
+```
+* 列出詳細資料
+```
 ls -al
 ```
 
-### 回到上一層目錄
+### 回到上一層資料夾
 ```
 cd ..
 ```
 
-### 顯示當前路徑
+### 顯示當前工作資料夾
 ```
 pwd
 ```
 
-### 創建目錄
+### 創建資料夾
 ```
-mkdir <目錄>
+mkdir <資料夾>
+```
+e.g.
+
+```
+mkdir test
 ```
 
-### 刪除目錄以及檔案(不可逆)
+### 刪除資料夾以及檔案(不可逆)
 ```
-rm -Rf <目錄>
+rm -Rf <資料夾>
+```
+e.g.
+
+```
+rm -Rf test
 ```
 
-### 複製目錄以及檔案
+### 複製資料夾以及檔案
 ```
-cp -Rf <來源目錄> <目標目錄>
+cp -Rf <來源資料夾> <目標資料夾>
+```
+e.g.
+```
+cp -Rf test test2
 ```
 ### 取消當前指令
 ```
@@ -51,6 +78,10 @@ git config --global user.name "xxx.xxx"
 ### 下載
 ```
 git clone <PATH>
+```
+e.g.
+```
+git clone https://github.com/douyoice/test
 ```
 
 ### 新增修訂版本

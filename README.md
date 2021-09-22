@@ -84,3 +84,18 @@ git log
 ```
 git reset
 ```
+
+### 觀看目前的修改狀況差異
+```
+git diff
+```
+
+### 把某個檔案或資料夾回復到當前版本
+```
+git checkout <File Name>
+```
+
+### 抓取某個版本分支
+```
+git checkout <Hash Code>
+```

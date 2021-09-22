@@ -1,1 +1,45 @@
-new file
+* Lionic deep packet inspection (DPI) develop
+  * Application visibilty control
+  * Web content filtering
+  * QUIC parser(RFC9000)
+  * Flow management
+  * Flow statitics
+  * Smart QoS
+  * Parental Control
+  * Decompresion
+
+*Prject
+  * Miniguard 1.0 in Ralink rt3052
+  * Miniguard 2.0 in Atheros AR9344
+  * PicoUTM in Qualcomm ipq4018
+  * Generic in Qualcomm ipq4019
+  * X86
+  * Qualcomm ipq8072
+  * Mavell CN9132
+
+* Project roles
+  * Lionic DPI poring
+  * System integration
+  * System tuing
+  * Web gui
+  * Userpace program
+  * Kernel modules
+
+* Misc
+  * OpenWRT USB-3G Dongle Porting
+  * OpenWRT packages/Makfile
+  * Factory testing program, license writer, license generator
+  * MQTT
+  * json configure tool
+  * Web gui develop
+    * jQuery/php/html5/RWD/Javascript
+    * react.js/flot.js/hichart.js
+  * arp/dhcp spoofing
+  * ubus server/client integration
+  * IOS parental control APP
+  * IOS SSL proxy APP
+  * Netfilter flowtable integration
+  * Netfilter HOOKTHRESH implementation
+  * procfs/debugfs implementation
+  * Zero PI/Rasperberry PI Lionic DPI porting
+  * Documentation by Gitbook 
